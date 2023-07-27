@@ -22,9 +22,9 @@
         <!-- <div class="navbar bg-primary text-primary-content">
         <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
       </div> -->
-      <div class="flex justify-between items-center bg-orange-500 rounded-2xl p-6 text-white ">
-            <div class="flex justify-between items-center gap-6 ">
-                <div><a href="">Home</a></div>
+      <div class="flex justify-between items-center bg-error rounded-2xl p-6 text-white ">
+            <div class="flex justify-between items-center gap-3 ">
+                <div ><a href="">Home</a></div>
                 <div><a href="">About Us</a></div>
                 <div><a href="">Shop</a></div>
                 <div><a href="">All Fruits</a></div>
@@ -33,7 +33,7 @@
             <div class=" flex flex justify-between items-center gap-15">
                 <div class="flex justify-between items-center gap-2">
                     <img src="./images/logo.png" alt="">
-                    <h1>Fruit Burst</h1>
+                    <h1 class="text-4xl font-semibold">Fruit Burst</h1>
                 </div>
             </div> 
                 <div class="form-control">
@@ -41,6 +41,7 @@
                 </div>
             </div>
         </div>
+        
     </header>
     <main class="md: container md: mx-auto my-5">
         
@@ -74,6 +75,14 @@
         <a href="#slide1" class="btn btn-circle">❯</a>
       </div>
     </div>
+
+  </div>
+  <div class=" flex  m-10 justify-center -mt-20 items-center drop-shadow-lg w-auto bg-white ">
+    <img src="./images/fruit1.png" alt="">
+    <img src="./images/fruit2.png" alt="">
+    <img src="./images/fruit3.png" alt="">
+    <img src="./images/fruit4.png" alt="">
+    <img src="./images/fruit5.png" alt="">
   </div>
 </section>
 <section>
@@ -116,7 +125,7 @@
                   <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center"><hr><hr>
-                  <h2 class="card-title">12.90$ - 18.85$</h2>
+                  <h2 class="card-title ">12.90$ - 18.85$</h2>
                   <div class="rating rating-lg rating-half">
                     <input type="radio" name="rating-10" class="rating-hidden" />
                     <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
@@ -132,7 +141,34 @@
                   </div>
                   <p>Apples</p>
                   <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <!-- The button to open modal -->
+  <a href="#my_modal_8" class="btn">details</a>
+
+  <div class="modal" id="my_modal_8">
+    <div class="modal-box">
+      <figure class="px-10 pt-10">
+        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+        <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p><br>
+        <div class="rating rating-lg rating-half">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+        </div>
+        <div class="modal-action">
+      <a href="#" class="btn">close</a>
+      <a href="#" class="btn btn-error">Buy</a>
+      </div>
+      </div>
+    </div>
                   </div>
                 </div>
               </div>
@@ -158,9 +194,35 @@
                     <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                   </div>
                   <p>Apples</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                  <!-- The button to open modal -->
+                    <a href="#my_modal_9" class="btn">details</a>
+                 
+                  <div class="modal" id="my_modal_8">
+                    <div class="modal-box">
+                      <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                      </figure>
+                    <h3 class="font-bold text-lg">Orange</h3>
+                          <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                          <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                          </div>
+                  <div class="modal-action">
+                    <a href="#" class="btn">close</a>
+                    <a href="#" class="btn btn-error">buy</a>
+                    </div>
                   </div>
+            </div>
                 </div>
               </div>
         </div>
@@ -185,9 +247,7 @@
                     <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                   </div>
                   <p>Apples</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
+                  <a href="#my_modal_8" class="btn">details</a>
                 </div>
               </div>
         </div>
@@ -212,9 +272,7 @@
                     <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
                   </div>
                   <p>Apples</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
+                  <a href="#my_modal_8" class="btn">details</a>
                 </div>
               </div>
         </div>
@@ -224,32 +282,33 @@
    <div class=" flex justify-center items-center mt-5 mb-12"><button class="btn btn-error">Shop All</button></div>
 </section>
 
-<section class="meet-section">
-  <div class="text-center">
-    <h1>Meet the team section</h1>
+<section class="meet-section image-full text-neutral-content">
+  <div class="text-center mb-5">
+    <h1 class="text-2xl font-semibold">Meet the team section</h1>
     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center items-center  text-neutral-content">
     <div>
-      <img src="./images/member1.png" alt="">
+      <img class="meet-pic" src="./images/member1.png" alt="">
       <h4>Awlad Hossain</h4>
       <p>Fruits Expert</p>
     </div>
     <div>
-      <img src="./images/member1.png" alt="">
-      <h4>Awlad Hossain</h4>
+      <img class="meet-pic"  src="./images/member2.png" alt="">
+      <h4>Safia Chowdhury</h4>
       <p>Fruits Expert</p>
     </div>
     <div>
-      <img src="./images/member1.png" alt="">
-      <h4>Awlad Hossain</h4>
+      <img class="meet-pic"  src="./images/member3.png" alt="">
+      <h4>Rokib Hossain</h4>
       <p>Fruits Expert</p>
     </div>
     <div>
-      <img src="./images/member1.png" alt="">
-      <h4>Awlad Hossain</h4>
+      <img class="meet-pic"  src="./images/member4.png" alt="">
+      <h4>Chaity </h4>
       <p>Fruits Expert</p>
     </div>
+    
   </div>
 </section>
 
